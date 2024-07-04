@@ -6,13 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/style.css">
+    <style>
+        ul {
+            list-style-type: none;
+            background-color: antiquewhite;
+            overflow: hidden;
+            width: 50%;
+            margin: 30px auto;
+            height: 100px;
+            padding: 50px;
+        }
+
+        li {
+            float: left;
+            margin-right: 3px;
+        }
+
+        li a {
+            list-style-type: none;
+            font-size: 20px;
+            align-items: center;
+            padding: 20px;
+            text-decoration: none;
+
+        }
+
+        li a:hover {
+            color: aqua;
+            transition: 0.5s;
+        }
+    </style>
 </head>
 
 <body>
+    <ul>
+        <li><a href="home">home</a></li>
+        <li><a href="home">home</a></li>
+        <li><a href="home">home</a></li>
+
+        <li><a href="home">home</a></li>
+        <li style="float:right; font-size:20px; background-color: aquamarine; padding: 10px;"><a href="home">home</a>
+        </li>
+    </ul>
     <div class="expert">
         <h1>software enginners</h1>
         <div class="devop">
             <button class="btn">submit</button>
+
         </div>
     </div>
 </body>
