@@ -1,0 +1,39 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: lighter;
+
+    font-style: italic;
+    text-align: center;
+    color: white;
+
+}
+
+.expert {
+    background-image: url(../developer.jpg);
+    height: 600px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 54px 54px;
+    margin: 30px auto;
+}
+
+.devop {
+    text-align: center;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    color: aqua;
+    cursor: pointer;
+    background-color: bisque;
+    transition: 0.5s;
+}
